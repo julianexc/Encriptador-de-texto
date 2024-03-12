@@ -5,6 +5,7 @@ const mensajeEncriptado = document.querySelector(".mensaje-encriptado");
 const btnCopiar = document.querySelector(".btn-copiar");
 const btnDesencriptar =document.querySelector(".btn-desencriptar");
 
+
 btnEncriptar.addEventListener("click", e=>{
   e.preventDefault();
   let texto = texTexto.value;
